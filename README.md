@@ -1,2 +1,3 @@
 # sac-atari
-Use SAC(Soft Actor-Critic) to play atari games
+本项目实现了使用Soft Actor-Critic算法在ALE环境下跑Atari的Freeway游戏。SAC是一种基于最大熵的深度强化学习算法，以其优秀的样本效率和稳定性著称。Freeway是Atari里面一个比较简单的游戏，因此实现起来也没有什么难度。算法运行的效果也很好，在十个episode内就基本达到了收敛。以后会继续尝试用强化学习的方法跑其它的Atari游戏。
+[回报随Episode的变化](returns.png)
